@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+
+body {
+    background-color: #111; 
+    font-family: 'Rethink Sans', sans-serif;
+    box-sizing:border-box;
+    
+}
+
+.container h1 {
+    font-size: 50px;
+    color:#fff;
+    margin-bottom: 80px;
+}
+
+a {color:inherit;
+    text-decoration: none;
+}
+.img-fluid{
+    margin-top: 80px;
+    max-width:30%;
+    max-height:20%;
+    width:auto;
+    height:auto;
+}
+
+.btn {
+    margin:30px 25%;
+    justify-content:space-evenly;
+    display:block;
+    border-radius: 7px;
+    border:3px;
+    
+}
+.login{
+    background-color: rgb(13, 85, 192);
+    color:#fff;
+}
+.cadastrar{
+    background-color: #ecffb7;
+    color:#000
+}
+.btn:hover{
+    background-color: #18b40f;
+    border-color: #107c0a;
+    color:#fff
+}
